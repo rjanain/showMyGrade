@@ -1,0 +1,13 @@
+{
+  "timeZone": "Asia/Kolkata",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+  ],
+  "webapp": {
+    "executeAs": "USER_ACCESSING",
+    "access": "ANYONE"
+  }
+}
