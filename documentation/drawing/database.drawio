@@ -1,6 +1,212 @@
 <mxfile host="65bd71144e">
+    <diagram id="lodUC2dEfF-dFL0Y-9R8" name="Page-2">
+        <mxGraphModel dx="924" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="t2VDbVq42NITe-QSgduG-0"/>
+                <mxCell id="t2VDbVq42NITe-QSgduG-1" parent="t2VDbVq42NITe-QSgduG-0"/>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-0" value="HTML Page Loading" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="t2VDbVq42NITe-QSgduG-1" vertex="1">
+                    <mxGeometry x="80" y="80" width="280" height="620" as="geometry">
+                        <mxRectangle x="690" y="240" width="100" height="20" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="190" as="sourcePoint"/>
+                        <mxPoint x="70" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" target="DUilNuEmH_4ZLzzIRQBH-5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="190" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Use Google SESSION API to get Email" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-3">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
+                        <mxGeometry x="80" y="130" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-4" value="If email is in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
+                    <mxGeometry x="20" y="230" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-5" value="If email is not in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
+                    <mxGeometry x="160" y="230" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="290" as="sourcePoint"/>
+                        <mxPoint x="70" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-7" value="Get User Details" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
+                    <mxGeometry x="20" y="330" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="390" as="sourcePoint"/>
+                        <mxPoint x="70" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-9" value="Create a HTML page from Index" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
+                    <mxGeometry x="20" y="430" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" source="DUilNuEmH_4ZLzzIRQBH-5" target="DUilNuEmH_4ZLzzIRQBH-11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="830" y="430.0000000000001" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-11" value="Create HTML page from 403 error page&amp;nbsp;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
+                    <mxGeometry x="160" y="330" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="490" as="sourcePoint"/>
+                        <mxPoint x="210" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-13" value="Display the Page to user" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#00CC00;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
+                    <mxGeometry x="160" y="540" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;fontSize=16;fontColor=#FFFF33;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="DUilNuEmH_4ZLzzIRQBH-0" source="DUilNuEmH_4ZLzzIRQBH-11" target="DUilNuEmH_4ZLzzIRQBH-13" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60" y="530" as="sourcePoint"/>
+                        <mxPoint x="160" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-17" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=horizontal;startArrow=none;endArrow=none;" parent="DUilNuEmH_4ZLzzIRQBH-0" source="DUilNuEmH_4ZLzzIRQBH-3" target="DUilNuEmH_4ZLzzIRQBH-18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="User Logged in using Google" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-18">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
+                        <mxGeometry x="80" y="40" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-20" value="User Interation" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="t2VDbVq42NITe-QSgduG-1" vertex="1">
+                    <mxGeometry x="480" y="80" width="280" height="520" as="geometry">
+                        <mxRectangle x="690" y="240" width="100" height="20" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-21" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="190" as="sourcePoint"/>
+                        <mxPoint x="70" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-22" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" target="DUilNuEmH_4ZLzzIRQBH-25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="190" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Use Google SESSION API to get Email" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-23">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
+                        <mxGeometry x="80" y="130" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-24" value="If email is in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
+                    <mxGeometry x="20" y="230" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-25" value="If email is not in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
+                    <mxGeometry x="160" y="230" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-26" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="290" as="sourcePoint"/>
+                        <mxPoint x="70" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-27" value="Get the data as per the email id" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
+                    <mxGeometry x="20" y="330" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-28" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="390" as="sourcePoint"/>
+                        <mxPoint x="70" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-29" value="Return Response" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#00CC00;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
+                    <mxGeometry x="20" y="430" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-30" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" source="DUilNuEmH_4ZLzzIRQBH-25" target="DUilNuEmH_4ZLzzIRQBH-31" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="830" y="430.0000000000001" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-31" value="Return a NULL response" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
+                    <mxGeometry x="160" y="330" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-35" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=horizontal;startArrow=none;endArrow=none;" parent="DUilNuEmH_4ZLzzIRQBH-20" source="DUilNuEmH_4ZLzzIRQBH-23" target="DUilNuEmH_4ZLzzIRQBH-36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="get_marks()" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-36">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
+                        <mxGeometry x="80" y="40" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-39" value="User Interation" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="t2VDbVq42NITe-QSgduG-1" vertex="1">
+                    <mxGeometry x="820" y="80" width="280" height="520" as="geometry">
+                        <mxRectangle x="690" y="240" width="100" height="20" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-40" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="190" as="sourcePoint"/>
+                        <mxPoint x="70" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-41" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" target="DUilNuEmH_4ZLzzIRQBH-44" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="190" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Use Google SESSION API to get Email" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-42">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
+                        <mxGeometry x="80" y="130" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-43" value="If email is in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
+                    <mxGeometry x="20" y="230" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-44" value="If email is not in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
+                    <mxGeometry x="160" y="230" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-45" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="290" as="sourcePoint"/>
+                        <mxPoint x="70" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-46" value="Get the data as per the email id" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
+                    <mxGeometry x="20" y="330" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-47" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="390" as="sourcePoint"/>
+                        <mxPoint x="70" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-48" value="Return Response" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#00CC00;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
+                    <mxGeometry x="20" y="430" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-49" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" source="DUilNuEmH_4ZLzzIRQBH-44" target="DUilNuEmH_4ZLzzIRQBH-50" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="830" y="430.0000000000001" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-50" value="Return a NULL response" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
+                    <mxGeometry x="160" y="330" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="DUilNuEmH_4ZLzzIRQBH-51" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=horizontal;startArrow=none;endArrow=none;" parent="DUilNuEmH_4ZLzzIRQBH-39" source="DUilNuEmH_4ZLzzIRQBH-42" target="DUilNuEmH_4ZLzzIRQBH-52" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="get_crebs()" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-52">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
+                        <mxGeometry x="80" y="40" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
     <diagram id="Zwr5BVNnP6Eq51hzm9gV" name="Page-1">
-        <mxGraphModel dx="684" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+        <mxGraphModel dx="924" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -354,212 +560,6 @@
                         <mxPoint x="110" y="390" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-    <diagram id="lodUC2dEfF-dFL0Y-9R8" name="Page-2">
-        <mxGraphModel dx="684" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-            <root>
-                <mxCell id="t2VDbVq42NITe-QSgduG-0"/>
-                <mxCell id="t2VDbVq42NITe-QSgduG-1" parent="t2VDbVq42NITe-QSgduG-0"/>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-0" value="HTML Page Loading" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="t2VDbVq42NITe-QSgduG-1" vertex="1">
-                    <mxGeometry x="80" y="80" width="280" height="620" as="geometry">
-                        <mxRectangle x="690" y="240" width="100" height="20" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="140" y="190" as="sourcePoint"/>
-                        <mxPoint x="70" y="230" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" target="DUilNuEmH_4ZLzzIRQBH-5" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="140" y="190" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <UserObject label="Use Google SESSION API to get Email" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-3">
-                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
-                        <mxGeometry x="80" y="130" width="120" height="60" as="geometry"/>
-                    </mxCell>
-                </UserObject>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-4" value="If email is in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
-                    <mxGeometry x="20" y="230" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-5" value="If email is not in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
-                    <mxGeometry x="160" y="230" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="70" y="290" as="sourcePoint"/>
-                        <mxPoint x="70" y="330" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-7" value="Get User Details" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
-                    <mxGeometry x="20" y="330" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="70" y="390" as="sourcePoint"/>
-                        <mxPoint x="70" y="430" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-9" value="Create a HTML page from Index" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
-                    <mxGeometry x="20" y="430" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" source="DUilNuEmH_4ZLzzIRQBH-5" target="DUilNuEmH_4ZLzzIRQBH-11" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="830" y="430.0000000000001" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-11" value="Create HTML page from 403 error page&amp;nbsp;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
-                    <mxGeometry x="160" y="330" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="70" y="490" as="sourcePoint"/>
-                        <mxPoint x="210" y="520" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-13" value="Display the Page to user" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#00CC00;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
-                    <mxGeometry x="160" y="540" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;fontSize=16;fontColor=#FFFF33;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="DUilNuEmH_4ZLzzIRQBH-0" source="DUilNuEmH_4ZLzzIRQBH-11" target="DUilNuEmH_4ZLzzIRQBH-13" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="60" y="530" as="sourcePoint"/>
-                        <mxPoint x="160" y="530" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-17" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=horizontal;startArrow=none;endArrow=none;" parent="DUilNuEmH_4ZLzzIRQBH-0" source="DUilNuEmH_4ZLzzIRQBH-3" target="DUilNuEmH_4ZLzzIRQBH-18" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <UserObject label="User Logged in using Google" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-18">
-                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-0" vertex="1">
-                        <mxGeometry x="80" y="40" width="120" height="60" as="geometry"/>
-                    </mxCell>
-                </UserObject>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-20" value="User Interation" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="t2VDbVq42NITe-QSgduG-1" vertex="1">
-                    <mxGeometry x="480" y="80" width="280" height="520" as="geometry">
-                        <mxRectangle x="690" y="240" width="100" height="20" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-21" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="140" y="190" as="sourcePoint"/>
-                        <mxPoint x="70" y="230" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-22" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" target="DUilNuEmH_4ZLzzIRQBH-25" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="140" y="190" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <UserObject label="Use Google SESSION API to get Email" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-23">
-                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
-                        <mxGeometry x="80" y="130" width="120" height="60" as="geometry"/>
-                    </mxCell>
-                </UserObject>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-24" value="If email is in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
-                    <mxGeometry x="20" y="230" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-25" value="If email is not in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
-                    <mxGeometry x="160" y="230" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-26" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="70" y="290" as="sourcePoint"/>
-                        <mxPoint x="70" y="330" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-27" value="Get the data as per the email id" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
-                    <mxGeometry x="20" y="330" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-28" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="70" y="390" as="sourcePoint"/>
-                        <mxPoint x="70" y="430" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-29" value="Return Response" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#00CC00;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
-                    <mxGeometry x="20" y="430" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-30" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" source="DUilNuEmH_4ZLzzIRQBH-25" target="DUilNuEmH_4ZLzzIRQBH-31" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="830" y="430.0000000000001" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-31" value="Return a NULL response" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
-                    <mxGeometry x="160" y="330" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-35" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=horizontal;startArrow=none;endArrow=none;" parent="DUilNuEmH_4ZLzzIRQBH-20" source="DUilNuEmH_4ZLzzIRQBH-23" target="DUilNuEmH_4ZLzzIRQBH-36" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <UserObject label="get_marks()" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-36">
-                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-20" vertex="1">
-                        <mxGeometry x="80" y="40" width="120" height="60" as="geometry"/>
-                    </mxCell>
-                </UserObject>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-39" value="User Interation" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="t2VDbVq42NITe-QSgduG-1" vertex="1">
-                    <mxGeometry x="820" y="80" width="280" height="520" as="geometry">
-                        <mxRectangle x="690" y="240" width="100" height="20" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-40" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="140" y="190" as="sourcePoint"/>
-                        <mxPoint x="70" y="230" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-41" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" target="DUilNuEmH_4ZLzzIRQBH-44" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="140" y="190" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <UserObject label="Use Google SESSION API to get Email" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-42">
-                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
-                        <mxGeometry x="80" y="130" width="120" height="60" as="geometry"/>
-                    </mxCell>
-                </UserObject>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-43" value="If email is in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
-                    <mxGeometry x="20" y="230" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-44" value="If email is not in user table" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
-                    <mxGeometry x="160" y="230" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-45" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="70" y="290" as="sourcePoint"/>
-                        <mxPoint x="70" y="330" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-46" value="Get the data as per the email id" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
-                    <mxGeometry x="20" y="330" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-47" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="70" y="390" as="sourcePoint"/>
-                        <mxPoint x="70" y="430" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-48" value="Return Response" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#00CC00;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
-                    <mxGeometry x="20" y="430" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-49" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" source="DUilNuEmH_4ZLzzIRQBH-44" target="DUilNuEmH_4ZLzzIRQBH-50" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="830" y="430.0000000000001" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-50" value="Return a NULL response" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FF245E;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
-                    <mxGeometry x="160" y="330" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="DUilNuEmH_4ZLzzIRQBH-51" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=horizontal;startArrow=none;endArrow=none;" parent="DUilNuEmH_4ZLzzIRQBH-39" source="DUilNuEmH_4ZLzzIRQBH-42" target="DUilNuEmH_4ZLzzIRQBH-52" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <UserObject label="get_crebs()" treeRoot="1" id="DUilNuEmH_4ZLzzIRQBH-52">
-                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;fontSize=16;fontColor=#FFFF33;" parent="DUilNuEmH_4ZLzzIRQBH-39" vertex="1">
-                        <mxGeometry x="80" y="40" width="120" height="60" as="geometry"/>
-                    </mxCell>
-                </UserObject>
             </root>
         </mxGraphModel>
     </diagram>
